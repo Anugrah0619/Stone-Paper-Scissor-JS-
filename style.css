@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#heading{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 80px;
+    align-content: center;
+}
+
+.choice{
+    height: 150px;
+    width: 150px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+}  
+
+img:hover{
+    border: 5px solid black;
+    opacity: 0.5;
+}
+
+.choices{
+    gap: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoreboard{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: xx-large;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+#user-score,#computer-score{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.msg-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+#msg{
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.changeWin{
+    background-color: green !important;
+}
+
+.changeLose{
+    background-color: red !important;
+}
+
+.changeDraw{
+    background-color: grey !important;
+}
+
+#reset{
+    background-color: cornsilk;
+    color: black;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    border-color: cornsilk;
+
+}
